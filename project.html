@@ -1,0 +1,1061 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MONEY HEIST</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Suez+One&family=Viga&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@600&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Courgette&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <meta charset=utf-8 name="viewport" content="width=device-width ,initial-scale=1.0">
+        </meta>
+
+        <style>
+            #body{
+                margin: 0;
+                overflow: auto;
+               min-height: 100hv;
+               
+            }
+            #sch{
+                width: 450px;
+                height: 30px;
+                border-radius: 15px;
+                
+            }
+
+            #u1 div{
+                
+              display: inline-block;
+
+            }
+            #u2{
+                position: absolute;
+                top: 15px;
+                left: 500px;
+                
+            }
+
+            #u3{
+                position: absolute;
+                top: 20px;
+                left: 320px;
+                width: 100px;
+                height: 50px;
+            }
+
+            #u4{  
+                float: left;
+                width: 100vh;
+                height: auto;
+                background-size: cover;
+            }
+            #u5{
+                position: absolute;
+                left: 30px;
+                width: 100px;
+            }
+            #u6{
+                position: absolute;
+                top: 70px;
+                width:100%;
+                    
+                
+            }
+
+            #u7{
+                padding: 30px;
+            }
+            #u8{
+                border-radius: 100px;
+            }
+            #u9{
+                border-radius: 100px;
+            }
+            #u10{
+                border-radius: 100px;
+            }
+            #u11{
+                text-align: center;
+                font-family: 'Anton', sans-serif;
+            }
+            #s12{
+                font-family: 'Courgette', cursive;
+            }
+            
+
+            .mySlides {display:none;width:100%}
+
+            
+
+           /*.images
+           {
+               background-color: #282A35;
+               height: 300px;
+           }
+            .footers
+            {     
+                overflow: auto;
+                color: white;
+                text-align: center;
+                line-height: 1.5em;
+                padding: 100px 100px 100px 100px;
+               
+            }
+            a{
+                color: white;
+            }
+           #sideview
+           {  
+               display: flex; 
+               float: right;
+               padding-right: 20px;
+               padding-top: 20px;
+               background-color: #282A35;
+              
+           }
+           /*div
+           {   
+               display: flex;
+               padding-top: 30px;
+             padding-left: 30px;
+             height: 300px;
+           }*/
+          .logos
+          {
+              float: left;
+              background-color: #282A35;
+          }
+          #q1{
+              margin-left: 30px;
+              margin-bottom: 80px;
+              background-color: #282A35;
+          }
+
+          * {box-sizing: border-box;}
+
+
+input[type=text], input[type=password] {
+  
+  padding: 14px 20px;
+  margin: 8px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+button {
+  background-color: white;
+  opacity: 0%;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+ opacity:0.8;
+}
+
+button:hover {
+  opacity:1;
+}
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color:white;
+  margin-left: 30px;
+  pointer-events: none;
+}
+
+
+
+.cancelbtn, .signupbtn {
+  float: center;
+  width:25%;
+  pointer-events: none;
+}
+
+
+.container {
+  padding: 20px;
+}
+
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+ top:0;
+ left:0;
+  width: 100%; /* Full width */
+ height: 50% /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-image:url(https://image.shutterstock.com/image-photo/blue-red-paper-background-260nw-1912335064.jpg);
+  padding: 50px ;
+}
+
+
+.modal-content {
+  background-color:white;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid navajowhite;
+  width: 25%; /* Could be more or less, depending on screen size */
+}
+hr{
+  border: 3px solid grey;
+  margin-bottom: 20px;
+}
+label{
+color :#000000;}
+ 
+
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 50px;
+  font-weight: thin;
+  color:yellow;
+}
+
+.close:hover,
+.close:focus {
+  color: rgb(0, 4, 255);
+  cursor: pointer;
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+  width: 50%;
+}
+.r1
+{  
+    
+    border-radius: 100px;
+    
+}
+
+@media screen and (max-width: 600px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+  .modal .container{
+    width:50%;
+    height:50%;
+  }
+  }
+}
+
+.r2{
+                    display: inline-block;
+                    cursor: pointer;
+                    position: absolute;
+                    margin-left: 10px;
+                    margin-top: 10px;
+                  }
+                  
+                  .bar1, .bar2, .bar3 {
+                    width: 35px;
+                    height: 5px;
+                    padding:  1px;
+                    background-color: #333;
+                    margin: 6px 0;
+                    transition: 0.4s;
+                  }
+                  
+                  .change .bar1 {
+                    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+                    transform: rotate(-45deg) translate(-9px, 6px);
+                  }
+                  
+                  .change .bar2 {opacity: 0;}
+                  
+                  .change .bar3 {
+                    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+                    transform: rotate(45deg) translate(-8px, -8px);
+                  }
+
+                  #div1 {  
+           
+          width: 80px;
+          height: 40px;
+          font-size: 12px;
+          background: #DDBC8C;
+          transition: width 2s;
+        }
+        #div2 {
+            
+          width: 100px;
+         
+          height: 40px;
+          font-size: 12px;
+          background: #DDBC8C;
+          transition: width 2s;
+        } #div3 {
+            
+          width: 150px;
+          height: 30px;
+          font-size: 12px;
+          background: #DDBC8C;
+          transition: width 2s;
+        } #div4 {
+           
+          width: 200px;
+          height: 30px;
+          font-size: 12px;
+          background: #DDBC8C;
+          transition: width 2s;
+        } #div5 {
+           
+          width: 300px;
+          height: 30px;
+          font-size: 12px;
+          background: #DDBC8C;
+          transition: width 2s;
+        }
+        
+        #div1 {transition-timing-function: linear;}
+        #div2 {transition-timing-function: ease;}
+        #div3 {transition-timing-function: ease-in;}
+        #div4 {transition-timing-function: ease-out;}
+        #div5 {transition-timing-function: ease-in-out;}
+        
+        #div1:hover {
+          width: 300px;
+        }
+        #div2:hover {
+          width: 300px;
+        }
+        #div3:hover {
+          width: 300px;
+        }
+        #div4:hover {
+          width: 300px;
+        }
+        #div5:hover {
+          width: 300px;
+        }
+        #r3
+        {       
+            background-image: linear-gradient(rgba(192,192,192,0.3),rgba(192,192,192,0.3)),url('https://images.pexels.com/photos/1410236/pexels-photo-1410236.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' );
+            data-aos: "fade-down";
+            height: 100%;
+            width: 100%;
+            background-size: cover;
+            position: relative;
+        }
+        #s1{
+                
+                
+                width: 100%;
+                overflow: auto;
+                height: 400px;
+            }
+
+            #s1 div{
+                height: 100%;
+                display: inline-block;
+            }
+
+
+            
+            
+            #s2{
+                width: 200px;
+                left: 50px;
+                border-radius: 120px;
+                margin-left: 100px;
+            }
+
+            #s3{
+                width: 200px;
+                left: 50px;
+                border-radius: 120px;
+                margin-left: 100px;
+            }
+            #s4{
+                
+                width: 200px;
+                left: 50px;
+                border-radius: 120px;
+                margin-left: 100px;
+            }
+            #s5{
+                
+                width: 200px;
+                left: 50px;
+                border-radius: 120px;
+                margin-left: 100px;
+            }
+            #t1{
+                
+                
+                width: 100%;
+                overflow: auto;
+                height: 250px;
+            }
+
+            #t1 div{
+                height: 100%;
+                display: inline-block;
+            }
+
+
+            
+            
+            #t2{
+                width: 200px;
+                left: 50px;
+                border-radius: 120px;
+                margin-left: 100px;
+            }
+
+            #t3{
+                width: 200px;
+                left: 50px;
+                border-radius: 120px;
+                margin-left: 100px;
+            }
+            #t4{
+                
+                width: 200px;
+                left: 50px;
+                border-radius: 120px;
+                margin-left: 100px;
+            }
+            #t5{
+                
+                width: 200px;
+                left: 50px;
+                border-radius: 120px;
+                margin-left: 100px;
+            }
+
+            #t6{
+                font-family: 'Courgette', cursive;
+                font-size: 20px;
+            }
+
+            .images
+           {
+               background-color: #282A35;
+               height: 100px;
+               min-height: 90vh;
+               overflow: auto;
+
+           }
+            .footers
+            {     
+                overflow: auto;
+                color: white;
+                text-align: center;
+                line-height: 1.5em;
+                padding: 100px 100px 100px 100px;
+               
+            }
+            a{
+                color: white;
+            }
+           #sideview
+           {  
+               display: flex; 
+               float: right;
+               padding-right: 20px;
+               padding-top: 20px;
+               background-color: #282A35;
+              
+           }
+
+
+ .e1 h3{
+               color: #ffffff;
+           }
+           .e1
+           { 
+               display: flex;
+              padding-left: 80px;
+               text-decoration: none;
+           }
+           .e1{
+               text-decoration: none;
+           }
+           .e1 ul li{
+              list-style: none;
+              text-decoration: none;
+           }
+           .e1 a{
+               text-decoration: none;
+           }
+           a:hover
+           {  
+               text-decoration: underline;
+               color: pink;
+               transition: 3s;
+           }
+           @media screen and (max-height: 800px) {
+    ul {
+        margin-top: 40px;}
+    }
+
+    .center{
+    position: absolute;
+    top: 2270px;
+    left: 60%;
+    translate: (-50%, -50%,);
+    width: 400px;
+    height: 425px;
+    background: #dedcdf;
+    border-radius: 10px;
+}
+
+.center h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+
+}
+
+.center form{
+    padding: 0 0px;
+    box-sizing: border-box;
+}
+
+form .name_field{
+    position: relative;
+    
+    margin: 10px 0;
+}
+
+.name_field input{
+    width: 80%;
+    padding:0 5px;
+    height: 20px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+    margin-left: 30px;
+}
+
+.name_field label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+    margin-left: 30px;
+}
+
+.name_field span::before{
+    content:'';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 80%;
+    height: 2px;
+    background: #2691d9 ;
+    transition: .5s;
+    margin-left: 30px;
+
+}
+
+.name_field input:focus ~ label,
+.name_field input:valid ~ label{
+    top: -5px;
+    color: #2691d9;
+
+}
+
+.name_field input:focus ~ span::before,
+.name_field input:valid ~ span::before{
+    width: 80%;
+
+}
+
+input[type="submit"]{
+    width: 80%;
+    height: 50px;
+    border: 1px solid;
+    background: #2691d9;
+    border-radius: 25px;
+    font-size: 18px;
+    color:#e9f4fb;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover{
+    border-color: #2691d9;
+    transition: .5s;
+
+}
+       .e3
+       {
+         width: 100%;
+         height: 400px;
+         position: relative;
+         left: 50%;
+         transform: translate(-50%,0%);
+         background-image:url('https://media.gettyimages.com/photos/luxury-five-stars-hotels-lobby-picture-id1077111606?k=20&m=1077111606&s=612x612&w=0&h=eSDeNCA7ImrYUHDl-PPInohY2N5qtglUkuht2duNWTE=');
+         background-size: 100% 100%;
+         box-sizing: 1px 2px 5px 5px gray;
+         animation: slider 5s infinite;
+        }
+     @keyframes slider{
+              30%{background-image: url('images/rst1.jpg'); background-size: 100% 100%;}
+              35%{background-image: url('images/rest2.jpg');  background-size: 100% 100%;}
+              35%{background-image: url('images/rest2.jpg');  background-size: 100% 100%;}
+              35%{background-image: url('images/rest2.jpg'); background-image: 100% 100%;}
+               35%{
+                 background-images: url('images/rest2.jpg'); background-size: 100% 100%;
+               }
+            }
+
+            .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+        #e1{
+            pointer-events: none;
+            font-family: 'Baloo Bhaina 2', cursive;
+        }
+
+        .a{
+            padding: 0%;
+        }
+        
+
+.g0 ul {
+ margin: 0;
+ padding: 0;
+ display: flex;
+ position: relative;
+ top: 100%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ 
+ overflow: auto;
+ padding-left: 40px;
+ padding-left: 30px;
+ padding-bottom: 30px;
+    top: 30px;
+ 
+}
+
+
+.g0 ul li {
+ list-style: none;
+ margin: 0 15px;
+}
+
+.g0 ul li a {
+ position: relative; 
+ display: block;
+ width: 200px;
+ height: 200px;
+ text-align: center;
+ line-height: 63px;
+ background: #333;
+ border-radius: 50%;
+ font-size: 30px;
+ color: white;
+ transition: .5s;
+}
+
+.g0 ul li a::before {
+ content: '';
+ position: relative;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ border-radius: 50%;
+ background: #ffee10;
+ transition: .5s;
+ transform: scale(.9);
+ z-index: -1;
+ border-color: 100px solid yellow;
+}
+
+.g0 ul li a:hover::before {
+ transform: scale(1.1);
+ box-shadow: 0 0 25px #ffee10;
+
+}
+
+.g0 ul li a:hover {
+ color: yellow;
+ box-shadow: 0 0 5px #ffee10;
+ text-shadow: 0 0 5px yellow;
+}
+#i1{
+    margin-left: 120px;
+    margin-top: 50px;
+    color: #ffffff;
+}
+#t111{
+  font-family: 'Carter One', cursive;
+}
+
+#s123{
+  position: absolute;
+  left: 1000px;
+  top: 10px;
+}
+
+        </style>
+
+    </head>
+    <body>
+        <div id='u1' style="height: 200px;">
+
+            <img src="images/logo.jpg" height='90px' width="110px" style="margin-left: 50px";>
+            <div id='u3'>
+                <select style="border:1px solid; top:20px">
+                    <option>Visakhapatnam</option>
+                    <option>Mumbai</option>
+                    <option>Delhi</option>
+                    <option>Bangalore</option>
+                    <option>Hyderabad</option>
+    
+                </select>
+            </div>
+            <div id='u2'>
+                <input type='text' id='sch' placeholder="  search by restaurants" >
+            </div>
+
+        
+        <p id='s123'>CONTACT: +91 8886614949</p>
+            <!--<i class="fas fa-bars" style="height:150px;float:right;margin-top: 0px;position: absolute;"></i>       
+            <div class="r2" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </div>
+              
+              <script>
+              function myFunction(x) {
+                x.classList.toggle("change");
+              }
+              </script>-->
+
+        </div>
+        <div id='a1'>
+
+        </div>
+        
+        <br><br><br><br>
+
+        <div id='u6'>
+            <img  src="images/logo4.jpg" style="padding: 0;height: 600px;width:100%" data-aos="fade-down" >
+            <div id='e1'><h1 style="position: absolute;top: 30px;left: 500px;text-align:center; font-size: 3.5em;color: white;" data-aos="fade-up"><b>              
+                WELCOME<br>
+                TO <br>
+                    TSANGPO<br>
+                        RESTAURANT<br></b></h2></div>
+
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        
+        <div id='s1' data-aos="fade-up">
+            <hr><h2 id='s12'><center>SEARCH BY CATEGORY</center></h2><hr>
+            <img src="https://restaurantindia.s3.ap-south-1.amazonaws.com/s3fs-public/content6553.jpg" alt=img height="175px" width="175px" id="s2" top: 0px;color: yellow;left: 30px;  data-aos="fade-right">  
+            <img src="https://i.pinimg.com/564x/9d/0d/2e/9d0d2eaf6c1b0652ad8e1550ed990533.jpg" alt=img height="175px" width="175px" id='s3' data-aos="fade-down">
+            <img src="https://opt.toiimg.com/recuperator/img/toi/m-64029548/64029548.jpg&width=500&resizemode=4" alt=img height="175px" width="175px" id="s4" data-aos="fade-down">
+            <img src="images/italian.jpg" alt=img height="175px" width="175px" id='s5' data-aos="fade-left"><br>
+            <p style="margin-left: 150px;">SOUTH-INDIAN &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp NORTH-INDIAN
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp CONTINENTAL
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspITALIAN</p>
+        </div><br>
+        <div id='t1' data-aos="fade-down">
+            <img src="images/swt.jpg" alt=img height="175px" width="175px" id="t2" data-aos="fade-right"> 
+            <img src="images/cok.jpg" alt=img height="175px" width="175px" id='t3' data-aos="fade-down">
+            <img src="images/ber.jpg" alt=img height="175px" width="175px" id="t4" data-aos="fade-down">
+            <img src="images/des.jpg" alt=img height="175px" width="175px" id='t5' data-aos="fade-left"><br>
+            <p style="margin-left: 150px;" >&nbsp&nbsp&nbspSWEETS&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp COOKIES&nbsp&nbsp&nbsp&nbsp&nbsp
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp BEVERAGES
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspDESSERTS</p>
+                
+        </div>
+                        <br><br>
+                        <h1>
+                            <CENTER> TODAYS SPECIAL </CENTER>
+                        </h1>
+                        <div class='g0'>
+                        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+                        <CENTER id="i1"><h1 style="color: white;">TODAYS SPECIAL </h1></CENTER>
+                        <ul id="i1">
+                          <li>
+                            <a href="#"  style="padding-top: 30px; text-decoration: none;">
+                           <CENTER style="top: 20px"> AKBAR BIRIYANI</CENTER>  
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#"  style="padding-top: 30px; text-decoration: none;">
+                            <CENTER style="text-align:center";>CHICKEN BIRIYANI</CENTER>  
+                            </a>
+                            </li>
+                          <li>
+                            <a href="#" style="padding-top: 60px;text-decoration: none;">
+                             PASTA
+                            </a>
+                            
+                          </li>
+                          <li>
+                            <a href="#"  style="padding-top: 60px;text-decoration: none;">
+                             PIZZA
+                            </a> 
+                          </li>
+                        </ul>
+                    </div>
+     <div id="r3">
+        <i>
+            <h1 id='t111'><center>POPULAR DISHES IN OUR TSANGPO</center></h1>
+            <a href="#"><div id="div1"><center>INDIAN DOSA<span style="font-size: 10px;">&#11088;<span style="font-size: 10px;">&#11088;</span><span style="font-size: 10px;">&#11088;</span></center></div></a><br>
+            <a href="#"><div id="div2"><center>AKBAR BIRIYANI<span style="font-size: 10px;">&#11088;</span><span style="font-size: 10px;">&#11088;</span><span style="font-size: 10px;">&#11088;</span></center></div></a><br>
+            <a href="#"><div id="div3"><center>PIZZA<span style="font-size: 10px;">&#11088;</span><span style="font-size: 10px;">&#11088;</span><span style="font-size: 10px;">&#11088;</span><span style="font-size: 10px;">&#11088;</span></center></div></a><br>
+            <a href="#"><div id="div4"><center>PASTA<span style="font-size: 10px;">&#11088;</span><span style="font-size: 10px;">&#11088;</span></center></div></a><br>
+            <a href="#"><div id="div5"><center>CROCHETTE<span style="font-size: 10px;">&#11088;</span></center></div></a><br>
+            </center></i>
+            </div>
+            
+        
+        <div id="u4">
+        <h2 class="w3-center">TODAYS DEALS</h2>
+
+        <div class="w3-content w3-section" style="max-width:500px">
+        <img class="mySlides" src="https://www.madrascurrycup.com/images/grab-now/Offer-ad.jpg" style="width:100%">
+        <img class="mySlides" src="https://www.shopickr.com/wp-content/uploads/2017/08/foodpanda-freedom-sale-independence-day-offers-2017.jpg" >
+        </div>
+
+        <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 3000); // Change image every 2 seconds
+        }
+        </script>
+        </div>
+        
+         <div class="center" data-aos="flip-left" data-aos-duration='3000'>
+            <h1 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Contact Us</h1>
+            <form method="post">
+                <div class="name_field">
+                    <input type="text"required>
+                    <span></span>
+                    <label>Name</label>
+                </div>
+                <div class="name_field">
+                    <input type="email" required>
+                    <span></span>
+                    <label>Email</label>
+                </div><br>
+                <div class="name_field">
+                    <input type="password" required>
+                    <span></span>
+                    <label>Password</label>
+                </div>
+                <div class="name_field">
+                    <input type="tel" required>
+                    <span></span>
+                    <label>Mobile Number</label>
+                </div>
+                <input type="submit" value="SUBMIT">
+            </form>
+        </div>
+         <div class="clearfix" style="margin-left: 520px;">
+             <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+             <button type="submit" class="signupbtn">Sign Up</button>
+           </div>
+         </div>
+       </form>
+     </div>
+       </form>
+     </div>
+     <br>
+     <br>
+     <br><br><br><br><br><br>
+     <section style="background-color: white; overflow: auto";>
+        <center >
+          <i><h1>A GOOD RESTAURENTS IS LIKE A VACATION AND WE PROVIDE YOU</h1></i>
+        </center></section>
+        <div class="e3">
+          
+        </div>
+     <h1 id='u11'>
+         OUR CREW MEMBERS</h1>
+     <div class="r1"><pre>
+                    <img src="images/che1.jpg"; height="200" width="200"; id='u8' data-aos="zoom-in-up" data-aos-duration="500">                   <img src="images/chef.jpg";   height="200" width="200"; id='u1' style="border-radius:100px;"  data-aos="zoom-in-up" data-aos-duration="750">                   <img src="images/chef3.jpg" alt="img"   height=200  width=200 style="border-radius: 100px;"" data-aos="zoom-in-up" data-aos-duration="1000" >              
+        </pre> </div>
+     </div>
+
+        <!--<section class="images">
+            
+                
+          
+            <div id="sideview">
+               
+              <pre><img src="https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=512&h=512"; height="30" width="30";>    <img src="https://image.flaticon.com/icons/png/512/87/87390.png"; height="30" width="30";>    <img src="https://image.flaticon.com/icons/png/512/124/124021.png"; height="30" width="30"></pre>
+            </div>
+          
+            <footer class="footers">
+                
+                FOOD COURT is optimized for Better taste,Better food,Better health. Examples might be simplified to improve Quality and basic understanding.ss of all content. While using this site, you agree to have read and accepted our terms of use, cookie and privacy policy.
+              <br> <a href="#"> copyrights </a> 2021 by Refsnes Data. All Rights Reserved.
+           
+             </footer>
+             
+             
+                <img id="q1" src="logo.jpg"; height="60" width="100";>
+                <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+               
+
+
+
+      </section>-->
+      <section class="images">
+        <section class="e1">   <h3 style="color: #ffffff";>
+            TSANGPO
+          </h3>    
+          <ul>  
+              <h3>
+                     COMPANY
+              </h3>
+              <li><a href="#">Who we are</a></li>
+              <li>
+                  <a href="#">Blog</a>
+                 
+              </li>
+              <li>
+                <a href="#">contact</a>
+               
+            </li>
+            <li>
+                <a href="#">Report fraud</a>
+               
+            </li>
+            <li>
+                <a href="#">Contact</a>
+               
+            </li>
+          </ul>&nbsp;&nbsp;&nbsp;&nbsp;
+          <ul>  
+            <h3>
+                FOR RESTAURANTS
+            </h3>
+            <li><a href="#">Add restaurants</a></li>
+            <li>
+                <a href="#">business apps</a>
+               
+            </li>
+            <li>
+              <a href="#">Restaurents apps</a>
+             
+          </li>
+          <li>
+              <a href="#">product of business</a>
+             
+          </li>
+          <li>
+              <a href="#">Contact</a>
+             
+          </li>
+        </ul>&nbsp;&nbsp;&nbsp;&nbsp;
+        
+        <ul>
+            <h3>
+                FOR YOU
+            </h3>
+        <li><a href="#">privacy</a></li>
+        <li>
+            <a href="#">terms</a>
+           
+        </li>
+        <li>
+          <a href="#">security</a>
+         
+      </li>
+      <li>
+          <a href="#">site map</a>
+         
+      </li>
+    
+    </ul>
+        </section>
+     
+      
+        <div id="sideview">
+           
+          <pre><a href="#"><img src="https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=512&h=512"; height="30" width="30";></a>    <a href="#"><img src="https://image.flaticon.com/icons/png/512/87/87390.png"; height="30" width="30";></a>    <a href="#"><img src="https://image.flaticon.com/icons/png/512/124/124021.png"; height="30" width="30"></pre></a>
+        </div>
+      
+        <footer class="footers">
+            
+            FOOD COURT is optimized for Better taste,Better food,Better health. Examples might be simplified to improve Quality and basic understanding.ss of all content. While using this site, you agree to have read and accepted our terms of use, cookie and privacy policy.
+          <br> <a href="#"> copyrights </a> 2021 by Refsnes Data. All Rights Reserved.<br>
+          <img id="q1" src="images/logo.jpg"; height="60" width="130"; style="padding-left: 30px; float: left";> 
+          <br></br>
+         <a href="#"> <img src="boy.gif.gif" height="150" width="150"></a>
+         </footer>
+         
+         
+          
+           
+
+
+  </section>
+
+
+    </body>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({duration:1000});
+  </script>
+</html>
