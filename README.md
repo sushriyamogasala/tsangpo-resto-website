@@ -18,5 +18,8 @@
 ![Screenshot (138)](https://user-images.githubusercontent.com/104165177/192302960-faf18618-9303-4dda-8dfa-a421da9a76f4.png)
 
 
-https://github.com/sushriyamogasala/tsangpo-resto-website/assets/104165177/2b972837-be49-42e3-8421-c0e047884efa
+
+
+
+https://github.com/sushriyamogasala/tsangpo-resto-website/assets/104165177/f4016a16-f5ee-4c6b-bde6-0708c8255eda
 
