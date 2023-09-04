@@ -16,3 +16,7 @@
 ![Screenshot (137)](https://user-images.githubusercontent.com/104165177/192303314-af260371-45c4-401c-9baf-d60505791d03.png)
 ## <h2 align="center">Tab 5</h2>
 ![Screenshot (138)](https://user-images.githubusercontent.com/104165177/192302960-faf18618-9303-4dda-8dfa-a421da9a76f4.png)
+
+
+https://github.com/sushriyamogasala/tsangpo-resto-website/assets/104165177/2b972837-be49-42e3-8421-c0e047884efa
+
